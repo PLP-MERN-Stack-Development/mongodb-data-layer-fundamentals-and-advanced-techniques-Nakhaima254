@@ -21,7 +21,8 @@ const books = [
     in_stock: true,
     pages: 336,
     publisher: 'J. B. Lippincott & Co.'
-  },
+  }, //book 1
+
   {
     title: '1984',
     author: 'George Orwell',
@@ -31,7 +32,8 @@ const books = [
     in_stock: true,
     pages: 328,
     publisher: 'Secker & Warburg'
-  },
+  }, //book 2
+
   {
     title: 'The Great Gatsby',
     author: 'F. Scott Fitzgerald',
@@ -41,7 +43,8 @@ const books = [
     in_stock: true,
     pages: 180,
     publisher: 'Charles Scribner\'s Sons'
-  },
+  }, //book 3
+
   {
     title: 'Brave New World',
     author: 'Aldous Huxley',
@@ -51,7 +54,8 @@ const books = [
     in_stock: false,
     pages: 311,
     publisher: 'Chatto & Windus'
-  },
+  }, //book 4
+
   {
     title: 'The Hobbit',
     author: 'J.R.R. Tolkien',
@@ -61,7 +65,8 @@ const books = [
     in_stock: true,
     pages: 310,
     publisher: 'George Allen & Unwin'
-  },
+  }, //book 5
+
   {
     title: 'The Catcher in the Rye',
     author: 'J.D. Salinger',
@@ -71,7 +76,8 @@ const books = [
     in_stock: true,
     pages: 224,
     publisher: 'Little, Brown and Company'
-  },
+  }, //book 6
+
   {
     title: 'Pride and Prejudice',
     author: 'Jane Austen',
@@ -81,7 +87,8 @@ const books = [
     in_stock: true,
     pages: 432,
     publisher: 'T. Egerton, Whitehall'
-  },
+  }, //book 7
+
   {
     title: 'The Lord of the Rings',
     author: 'J.R.R. Tolkien',
@@ -91,7 +98,8 @@ const books = [
     in_stock: true,
     pages: 1178,
     publisher: 'Allen & Unwin'
-  },
+  }, //book 8
+
   {
     title: 'Animal Farm',
     author: 'George Orwell',
@@ -101,7 +109,8 @@ const books = [
     in_stock: false,
     pages: 112,
     publisher: 'Secker & Warburg'
-  },
+  }, //book 9
+
   {
     title: 'The Alchemist',
     author: 'Paulo Coelho',
@@ -111,7 +120,9 @@ const books = [
     in_stock: true,
     pages: 197,
     publisher: 'HarperOne'
-  },
+  }, //book 10
+
+
   {
     title: 'Moby Dick',
     author: 'Herman Melville',
@@ -121,7 +132,8 @@ const books = [
     in_stock: false,
     pages: 635,
     publisher: 'Harper & Brothers'
-  },
+  }, //book 11
+
   {
     title: 'Wuthering Heights',
     author: 'Emily Brontë',
@@ -131,7 +143,119 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  }, //book 12
+ 
+  {
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    genre: "Software Engineering",
+    published_year: 2008,
+    price: 35.50,
+    in_stock: true,
+    pages: 464,
+    publisher: "Prentice Hall"
+  }, //book 13
+
+  {
+    title: "The Pragmatic Programmer",
+    author: "Andrew Hunt and David Thomas",
+    genre: "Software Engineering",
+    published_year: 1999,
+    price: 42.00,
+    in_stock: true,
+    pages: 352,
+    publisher: "Addison-Wesley"
+  }, //book 14
+
+  {
+    title: "Design Patterns: Elements of Reusable Object-Oriented Software",
+    author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    genre: "Software Engineering",
+    published_year: 1994,
+    price: 55.99,
+    in_stock: false,
+    pages: 395,
+    publisher: "Addison-Wesley"
+  }, //book 15
+
+  {
+    title: "Refactoring: Improving the Design of Existing Code",
+    author: "Martin Fowler",
+    genre: "Software Engineering",
+    published_year: 1999,
+    price: 47.25,
+    in_stock: true,
+    pages: 448,
+    publisher: "Addison-Wesley"
+  }, //book 16
+
+
+  {
+    title: "Code Complete",
+    author: "Steve McConnell",
+    genre: "Software Engineering",
+    published_year: 2004,
+    price: 50.00,
+    in_stock: true,
+    pages: 960,
+    publisher: "Microsoft Press"
+  }, //book 17
+
+  {
+    title: "Working Effectively with Legacy Code",
+    author: "Michael C. Feathers",
+    genre: "Software Engineering",
+    published_year: 2004,
+    price: 39.95,
+    in_stock: false,
+    pages: 456,
+    publisher: "Prentice Hall"
+  }, //book 18
+
+  {
+    title: "Continuous Delivery",
+    author: "Jez Humble and David Farley",
+    genre: "Software Engineering",
+    published_year: 2010,
+    price: 49.99,
+    in_stock: true,
+    pages: 512,
+    publisher: "Addison-Wesley"
+  }, //book 19
+
+  {
+    title: "The Mythical Man-Month",
+    author: "Frederick P. Brooks Jr.",
+    genre: "Software Engineering",
+    published_year: 1975,
+    price: 30.00,
+    in_stock: true,
+    pages: 322,
+    publisher: "Addison-Wesley"
+  }, //book 20
+
+  {
+    title: "Software Engineering at Google",
+    author: "Titus Winters, Tom Manshreck, Hyrum Wright",
+    genre: "Software Engineering",
+    published_year: 2020,
+    price: 44.00,
+    in_stock: true,
+    pages: 600,
+    publisher: "O'Reilly Media"
+  }, //book 21
+
+  {
+    title: "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+    author: "Eric Evans",
+    genre: "Software Engineering",
+    published_year: 2003,
+    price: 59.99,
+    in_stock: true,
+    pages: 560,
+    publisher: "Addison-Wesley"
+  }, //book 22
+
 ];
 
 // Function to insert books into MongoDB
